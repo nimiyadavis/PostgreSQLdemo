@@ -8,3 +8,7 @@ Step 1 -  The changes in the local sytstem should bring to staging area using th
 Step 2 - After adding the changes to staging area, we need to commit the changes with a message using the command below:
 
 ```git commit -m "Your commit message here"```  
+
+Step 3 - After committing the changes, we need to push the changes to the remote repository using the command below:
+
+```git push origin main```
