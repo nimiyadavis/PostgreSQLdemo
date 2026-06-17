@@ -4,7 +4,8 @@ This is a demo project to show how to connect to a PostgreSQL database using Pyt
 
 Step 1 -  The changes in the local sytstem should bring to staging area using the command below:
 
-```git add .'''
+```git add .```
+
 Step 2 - After adding the changes to staging area, we need to commit the changes with a message using the command below:
 
 ```git commit -m "Your commit message here"```  

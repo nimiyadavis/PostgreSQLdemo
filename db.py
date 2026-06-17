@@ -23,4 +23,4 @@ def create_connection():
         print(f"Error connecting to PostgreSQL database: {e}")
         return None 
     
-conn = create_connection()
+# conn = create_connection()
