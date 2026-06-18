@@ -1,7 +1,6 @@
 
 import os
 import sys
-
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 from db import create_connection
 
@@ -22,6 +21,6 @@ def insert_employee(id, name, age, department):
             cursor.close()
             conn.close()
 
-insert_employee(101, 'John Doe', 30, 'Engineering')
-insert_employee(102, 'Jane Smith', 25, 'Marketing')
-insert_employee(103, 'Alice Johnson', 28, 'HR')
+# insert_employee(101, 'John Doe', 30, 'Engineering')
+# insert_employee(102, 'Jane Smith', 25, 'Marketing')
+# insert_employee(103, 'Alice Johnson', 28, 'HR')

@@ -19,4 +19,3 @@ def delete_employee(id):
         finally:
             conn.close()
             cursor.close()
-delete_employee(102)

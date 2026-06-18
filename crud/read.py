@@ -22,4 +22,3 @@ def read_employee(id):
             print(f"Error reading employee: {e}")
         finally:
             conn.close()
-read_employee(101)

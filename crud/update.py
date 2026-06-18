@@ -20,4 +20,4 @@ def update_employee(id, name, age, department):
         finally:
             conn.close()
             cursor.close()
-update_employee(101, "Berry", 29, "Engineering")
+# update_employee(101, "Berry", 29, "Engineering")

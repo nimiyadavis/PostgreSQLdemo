@@ -23,5 +23,3 @@ def create_table():
             cursor.close()
             conn.close()
             
-
-    create_table()
